@@ -1,0 +1,12 @@
+.product-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.producto-card {
+  height: 120px;
+  height: 100px;
+  text-align: center;
+}

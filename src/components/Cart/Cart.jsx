@@ -1,14 +1,13 @@
-import { useState, useEffect } from "react";
+import { useContext, useState, useEffect } from "react";
 import "../Cart/Cart.css";
 import "../Button/Button.css";
 import Button from "../Button/Button";
+import { Context } from "../../Context/Context";
 
 const Cart = () => {
   const [productos, setproductos] = useState([]);
-
-  function handleClick() {
-    console.log("Hola");
-  }
+  //Los valores viene del Context
+  const { carrito, setCarrito } = useContext(Context);
 
   useEffect(() => {
     fetch("/datos/productos.json")
@@ -17,21 +16,27 @@ const Cart = () => {
       .catch((err) => console.error("Error al obtener productos:", err));
   }, []);
 
+  const ComprarProducto = (producto) => {
+    //Obtengo los productos que ya estan dentro del carrito y
+    //luego con el producto voy agregarndo
+    setCarrito([...carrito, producto]);
+  };
+
   return (
     <div className="products-grid">
       {productos.map((producto) => (
         <div className="product-card" key={producto.id}>
-          <img src={producto.image} />
+          <img src={producto.imagen} />
 
           <div className="product-info">
-            <h2>{producto.title}</h2>
-            <span className="price">{producto.price}€</span>
-            <p>{producto.description}</p>
+            <h2>{producto.titulo}</h2>
+            <span className="price">{producto.precio}€</span>
+            <p>{producto.descripcion}</p>
           </div>
 
           <div className="product-footer">
             <Button
-              onClick={handleClick}
+              onClick={() => ComprarProducto(producto)}
               clase="btn-add"
               texto="Comprar"
             ></Button>

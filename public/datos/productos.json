@@ -1,170 +1,194 @@
 [
   {
     "id": 1,
-    "title": "Café en Grano Arábica",
-    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=500",
-    "price": 12.5,
-    "description": "Café de especialidad con notas de chocolate y frutos secos."
+    "titulo": "Café en Grano Arábica",
+    "imagen": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=500",
+    "precio": 12.5,
+    "descripcion": "Café de especialidad con notas de chocolate y frutos secos.",
+    "cantidad": 1
   },
   {
     "id": 2,
-    "title": "Ratón Ergonómico Inalámbrico",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=500",
-    "price": 45.99,
-    "description": "Reduce la tensión en la muñeca con este diseño avanzado."
+    "titulo": "Ratón Ergonómico Inalámbrico",
+    "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=500",
+    "precio": 45.99,
+    "descripcion": "Reduce la tensión en la muñeca con este diseño avanzado.",
+    "cantidad": 1
   },
   {
     "id": 3,
-    "title": "Set de Velas Aromáticas",
-    "image": "https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?q=80&w=500",
-    "price": 18.0,
-    "description": "Pack de 3 velas con aroma a lavanda, vainilla y sándalo."
+    "titulo": "Set de Velas Aromáticas",
+    "imagen": "https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?q=80&w=500",
+    "precio": 18.0,
+    "descripcion": "Pack de 3 velas con aroma a lavanda, vainilla y sándalo.",
+    "cantidad": 1
   },
   {
     "id": 4,
-    "title": "Mochila para Portátil",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=500",
-    "price": 35.99,
-    "description": "Resistente al agua y con compartimento acolchado."
+    "titulo": "Mochila para Portátil",
+    "imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=500",
+    "precio": 35.99,
+    "descripcion": "Resistente al agua y con compartimento acolchado.",
+    "cantidad": 1
   },
   {
     "id": 5,
-    "title": "Aceite de Oliva Virgen Extra",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=500",
-    "price": 8.99,
-    "description": "Aceite de primera prensada en frío, ideal para ensaladas."
+    "titulo": "Aceite de Oliva Virgen Extra",
+    "imagen": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=500",
+    "precio": 8.99,
+    "descripcion": "Aceite de primera prensada en frío, ideal para ensaladas.",
+    "cantidad": 1
   },
   {
     "id": 6,
-    "title": "Altavoz Inteligente Mini",
-    "image": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=500",
-    "price": 49.0,
-    "description": "Controla tu hogar y escucha música con comandos de voz."
+    "titulo": "Altavoz Inteligente Mini",
+    "imagen": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=500",
+    "precio": 49.0,
+    "descripcion": "Controla tu hogar y escucha música con comandos de voz.",
+    "cantidad": 1
   },
   {
     "id": 7,
-    "title": "Botella de Agua de Acero",
-    "image": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?q=80&w=500",
-    "price": 15.49,
-    "description": "Botella térmica de acero inoxidable. Mantiene frío y calor."
+    "titulo": "Botella de Agua de Acero",
+    "imagen": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?q=80&w=500",
+    "precio": 15.49,
+    "descripcion": "Botella térmica de acero inoxidable. Mantiene frío y calor.",
+    "cantidad": 1
   },
   {
     "id": 8,
-    "title": "Kit de Cultivo de Hierbas",
-    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=500",
-    "price": 22.0,
-    "description": "Todo lo necesario para plantar albahaca y menta en casa."
+    "titulo": "Kit de Cultivo de Hierbas",
+    "imagen": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=500",
+    "precio": 22.0,
+    "descripcion": "Todo lo necesario para plantar albahaca y menta en casa.",
+    "cantidad": 1
   },
   {
     "id": 9,
-    "title": "Lámpara de Escritorio LED",
-    "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?q=80&w=500",
-    "price": 27.99,
-    "description": "Intensidad regulable y puerto de carga USB integrado."
+    "titulo": "Lámpara de Escritorio LED",
+    "imagen": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?q=80&w=500",
+    "precio": 27.99,
+    "descripcion": "Intensidad regulable y puerto de carga USB integrado.",
+    "cantidad": 1
   },
   {
     "id": 10,
-    "title": "Proteína en Polvo (Vainilla)",
-    "image": "https://images.unsplash.com/photo-1579722820308-d74e571900a9?q=80&w=500",
-    "price": 32.0,
-    "description": "Suplemento de alta calidad para recuperación muscular."
+    "titulo": "Proteína en Polvo (Vainilla)",
+    "imagen": "https://images.unsplash.com/photo-1579722820308-d74e571900a9?q=80&w=500",
+    "precio": 32.0,
+    "descripcion": "Suplemento de alta calidad para recuperación muscular.",
+    "cantidad": 1
   },
   {
     "id": 11,
-    "title": "Cámara Web 1080p",
-    "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=500",
-    "price": 39.99,
-    "description": "Perfecta para videollamadas nítidas y streaming profesional."
+    "titulo": "Cámara Web 1080p",
+    "imagen": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=500",
+    "precio": 39.99,
+    "descripcion": "Perfecta para videollamadas nítidas y streaming profesional.",
+    "cantidad": 1
   },
   {
     "id": 12,
-    "title": "Teclado Mecánico RGB",
-    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=500",
-    "price": 89.99,
-    "description": "Interruptores táctiles y retroiluminación personalizable."
+    "titulo": "Teclado Mecánico RGB",
+    "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=500",
+    "precio": 89.99,
+    "descripcion": "Interruptores táctiles y retroiluminación personalizable.",
+    "cantidad": 1
   },
   {
     "id": 13,
-    "title": "Auriculares Bluetooth",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=500",
-    "price": 59.9,
-    "description": "Sonido envolvente con cancelación de ruido activa."
+    "titulo": "Auriculares Bluetooth",
+    "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=500",
+    "precio": 59.9,
+    "descripcion": "Sonido envolvente con cancelación de ruido activa.",
+    "cantidad": 1
   },
   {
     "id": 14,
-    "title": "Smartwatch Deportivo",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=500",
-    "price": 129.0,
-    "description": "Monitoriza tu ritmo cardíaco y pasos diariamente."
+    "titulo": "Smartwatch Deportivo",
+    "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=500",
+    "precio": 129.0,
+    "descripcion": "Monitoriza tu ritmo cardíaco y pasos diariamente.",
+    "cantidad": 1
   },
   {
     "id": 15,
-    "title": "Cámara de Fotos Retro",
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=500",
-    "price": 199.0,
-    "description": "Captura momentos especiales con un estilo analógico único."
+    "titulo": "Cámara de Fotos Retro",
+    "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=500",
+    "precio": 199.0,
+    "descripcion": "Captura momentos especiales con un estilo analógico único.",
+    "cantidad": 1
   },
   {
     "id": 16,
-    "title": "Zapatillas de Running",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
-    "price": 75.0,
-    "description": "Ligeras y cómodas para tus entrenamientos diarios."
+    "titulo": "Zapatillas de Running",
+    "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500",
+    "precio": 75.0,
+    "descripcion": "Ligeras y cómodas para tus entrenamientos diarios.",
+    "cantidad": 1
   },
   {
     "id": 17,
-    "title": "Gafas de Sol Clásicas",
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=500",
-    "price": 25.5,
-    "description": "Protección UV400 con un diseño elegante y atemporal."
+    "titulo": "Gafas de Sol Clásicas",
+    "imagen": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=500",
+    "precio": 25.5,
+    "descripcion": "Protección UV400 con un diseño elegante y atemporal.",
+    "cantidad": 1
   },
   {
     "id": 18,
-    "title": "Termo para Comida",
-    "image": "https://images.unsplash.com/photo-1532635241-17e820acc59f?q=80&w=500",
-    "price": 22.5,
-    "description": "Mantiene tus guisos calientes durante toda la jornada."
+    "titulo": "Termo para Comida",
+    "imagen": "https://images.unsplash.com/photo-1532635241-17e820acc59f?q=80&w=500",
+    "precio": 22.5,
+    "descripcion": "Mantiene tus guisos calientes durante toda la jornada.",
+    "cantidad": 1
   },
   {
     "id": 19,
-    "title": "Cuaderno de Cuero",
-    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=500",
-    "price": 19.99,
-    "description": "Papel de alta calidad ideal para dibujo o notas."
+    "titulo": "Cuaderno de Cuero",
+    "imagen": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=500",
+    "precio": 19.99,
+    "descripcion": "Papel de alta calidad ideal para dibujo o notas.",
+    "cantidad": 1
   },
   {
     "id": 20,
-    "title": "Maceta de Cerámica",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=500",
-    "price": 14.0,
-    "description": "Diseño minimalista para decorar cualquier rincón."
+    "titulo": "Maceta de Cerámica",
+    "imagen": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=500",
+    "precio": 14.0,
+    "descripcion": "Diseño minimalista para decorar cualquier rincón.",
+    "cantidad": 1
   },
   {
     "id": 21,
-    "title": "Molinillo de Café Eléctrico",
-    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?q=80&w=500",
-    "price": 38.0,
-    "description": "Muele tus granos al instante con precisión para el café más fresco."
+    "titulo": "Molinillo de Café Eléctrico",
+    "imagen": "https://images.unsplash.com/photo-1585515320310-259814833e62?q=80&w=500",
+    "precio": 38.0,
+    "descripcion": "Muele tus granos al instante con precisión para el café más fresco.",
+    "cantidad": 1
   },
   {
     "id": 22,
-    "title": "Alfombrilla de Yoga",
-    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
-    "price": 28.5,
-    "description": "Antideslizante y ecológica para tus sesiones de fitness."
+    "titulo": "Alfombrilla de Yoga",
+    "imagen": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=500",
+    "precio": 28.5,
+    "descripcion": "Antideslizante y ecológica para tus sesiones de fitness.",
+    "cantidad": 1
   },
   {
     "id": 23,
-    "title": "Bombilla Inteligente RGB",
-    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=500",
-    "price": 12.99,
-    "description": "Controla el color y brillo desde tu teléfono móvil."
+    "titulo": "Bombilla Inteligente RGB",
+    "imagen": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=500",
+    "precio": 12.99,
+    "descripcion": "Controla el color y brillo desde tu teléfono móvil.",
+    "cantidad": 1
   },
   {
     "id": 24,
-    "title": "Juego de Té Japonés",
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=500",
-    "price": 34.0,
-    "description": "Tetera de hierro y tazas a juego para los amantes del té."
+    "titulo": "Juego de Té Japonés",
+    "imagen": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=500",
+    "precio": 34.0,
+    "descripcion": "Tetera de hierro y tazas a juego para los amantes del té.",
+    "cantidad": 1
   }
 ]

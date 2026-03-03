@@ -1,8 +1,12 @@
 import React from "react";
 import "../Button/Button.css";
 
-function Button({ texto, clase }) {
-  return <button className={clase}>{texto}</button>;
+function Button({ texto, onClick, clase }) {
+  return (
+    <button className={clase} onClick={onClick}>
+      {texto}
+    </button>
+  );
 }
 
 export default Button;
