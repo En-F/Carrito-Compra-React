@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from "react";
-import "../Cart/Cart.css";
+import "./Producto.css";
 import "../Button/Button.css";
 import Button from "../Button/Button";
 import { Context } from "../../Context/Context";
@@ -7,7 +7,7 @@ import { Context } from "../../Context/Context";
 const Cart = () => {
   const [productos, setproductos] = useState([]);
   //Los valores viene del Context
-  const { carrito, setCarrito } = useContext(Context);
+  const { ComprarProducto } = useContext(Context);
 
   useEffect(() => {
     fetch("/datos/productos.json")
@@ -15,12 +15,6 @@ const Cart = () => {
       .then((datos) => setproductos(datos))
       .catch((err) => console.error("Error al obtener productos:", err));
   }, []);
-
-  const ComprarProducto = (producto) => {
-    //Obtengo los productos que ya estan dentro del carrito y
-    //luego con el producto voy agregarndo
-    setCarrito([...carrito, producto]);
-  };
 
   return (
     <div className="products-grid">

@@ -10,3 +10,39 @@
   height: 100px;
   text-align: center;
 }
+
+.CartTotal {
+  text-align: center;
+}
+
+.borrar-eleCar {
+  cursor: pointer;
+}
+
+.contenedor-cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  height: 40px;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.btn-operacion {
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.numero-cantidad {
+  padding: 0 20px;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+}
