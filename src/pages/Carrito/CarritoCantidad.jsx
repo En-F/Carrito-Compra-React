@@ -2,10 +2,15 @@ import { useContext } from "react";
 import { Context } from "../../Context/Context";
 import ElementoCarrito from "./ElementoCarrito";
 const CarritoCantidad = ({ producto }) => {
-  const { carrito, setCarrito } = useContext(Context);
+  const { carrito, setCarrito, ComprarProducto, BorrarProducto } =
+    useContext(Context);
 
-  const sumar = (producto) => {};
-  const restar = (producto) => {};
+  const sumar = (producto) => {
+    ComprarProducto(producto);
+  };
+  const restar = (producto) => {
+    BorrarProducto(producto);
+  };
 
   return (
     <div className="contenedor-cantidad">

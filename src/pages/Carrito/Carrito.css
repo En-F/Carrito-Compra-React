@@ -1,18 +1,36 @@
 .product-card-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 120px 2fr 1fr 1fr 40px;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.product-card-container h3 {
+  font-size: 1.1rem;
+  color: #2d3436;
+  margin: 0;
+  text-align: left;
+}
+.estructura-card {
+  margin: 20px auto;
+  padding: 0 15px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 900px;
 }
 
 .producto-card {
-  height: 120px;
+  height: 100px;
   height: 100px;
   text-align: center;
-}
-
-.CartTotal {
-  text-align: center;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 .borrar-eleCar {
@@ -24,7 +42,7 @@
   align-items: center;
   justify-content: center;
   background-color: #f1f1f1;
-  border-radius: 8px;
+  border-radius: 20px;
   border: 1px solid #ccc;
   height: 40px;
   justify-content: space-between;
@@ -32,12 +50,12 @@
 }
 
 .btn-operacion {
-  color: rgb(0, 0, 0);
+  padding: 5px 12px;
+  background: none;
   border: none;
-  padding: 8px;
-  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
-  text-align: center;
+  color: black;
 }
 
 .numero-cantidad {
@@ -45,4 +63,19 @@
   font-size: 1.1rem;
   color: #333;
   text-align: center;
+}
+
+.carrito-vacio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #1b7ada; /* Gris muy claro */
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 400px;
+  color: #000000; /* Color de texto suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
