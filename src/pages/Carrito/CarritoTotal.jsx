@@ -11,7 +11,7 @@ const CarritoTotal = () => {
   if (carrito.length === 0) {
     return (
       <div className="carrito-vacio">
-        <span>El carro esta vacío.</span>
+        <span>El carrito esta vacío.</span>
       </div>
     );
   }

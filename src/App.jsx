@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Carrito from "./pages/Carrito/Carrito";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import "./App.css";
 import "./index.css";
 import OtherPage from "./pages/OtherPage";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="App h-screen overflow-hidden">
-        <Header />
+        <Header className="App-header" />
         <MainContent>
           <Routes>
             <Route path="/" element={<HomePage />} />

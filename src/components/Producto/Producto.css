@@ -6,30 +6,39 @@
 }
 
 .product-card {
-  background-color: #1a1a1a;
+  background-color: var(--b2);
+  color: var(--body_color);
+  border: 1px solid oklch(var(--bc) / 0.1);
   border-radius: 12px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid #333;
+  border: 2px solid #000;
+
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: oklch(var(--p));
 }
 
 .product-card img {
   width: 100%;
   height: 200px;
-  object-fit: contain; /* Para que la imagen no se deforme */
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 1rem;
+  color: oklch(var(--bc));
 }
 
 .product-info {
   text-align: center;
   margin-bottom: 1rem;
+  color: oklch(var(--bc)) !important;
 }
 
 .price {
-  display: block;
-  color: #646cff;
-  font-size: 1.2rem;
+  color: var(--link_color);
   font-weight: bold;
 }

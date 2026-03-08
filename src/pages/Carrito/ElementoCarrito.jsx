@@ -1,25 +1,14 @@
 import { Context } from "../../Context/Context";
 import { useContext } from "react";
 import CarritoCantidad from "./CarritoCantidad";
-import { LiaCircleNotchSolid } from "react-icons/lia";
 
 const ElementoCarrito = () => {
-  const { carrito, setCarrito } = useContext(Context);
-
-  const borrarProducto = (id) => {
-    const encotrarId = carrito.find((elemento) => elemento.id === id);
-
-    const carritoNuevo = carrito.filter((elemento) => {
-      return elemento !== encotrarId;
-    });
-
-    setCarrito(carritoNuevo);
-  };
+  const { carrito, EliminarDelTodo } = useContext(Context);
 
   return carrito.map((producto) => {
     return (
-      <div className="estructura-card">
-        <div className="product-card-container" key={producto.id}>
+      <div className="estructura-card" key={producto.id}>
+        <div className="product-card-container">
           <img src={producto.imagen} className="producto-card" />
           <h3>{producto.titulo}</h3>
           <CarritoCantidad producto={producto} />
@@ -28,7 +17,7 @@ const ElementoCarrito = () => {
           </h4>
           <h3
             className="borrar-eleCar"
-            onClick={() => borrarProducto(producto.id)}
+            onClick={() => EliminarDelTodo(producto)}
           >
             ❌
           </h3>

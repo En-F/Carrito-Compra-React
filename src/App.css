@@ -45,3 +45,8 @@
   min-height: 100dvh;
   grid-template-rows: auto 1fr auto;
 }
+
+.App-header {
+  --background-color: var(--body_background);
+  --color: var(color_body);
+}

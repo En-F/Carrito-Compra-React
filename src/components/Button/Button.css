@@ -25,3 +25,27 @@
 .btn:hover {
   background-color: #2e38ff;
 }
+
+.btn-nav {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+[data-theme="light"] .btn-nav {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+[data-theme="dark"] .btn-nav {
+  background-color: #bfbfbf;
+  color: #1f2937;
+  border: 1px solid #ffffff;
+}
+
+.btn-nav:hover {
+  transform: scale(1.05);
+}

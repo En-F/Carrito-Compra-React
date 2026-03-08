@@ -2,14 +2,22 @@ import { useContext } from "react";
 import { Context } from "../../Context/Context";
 import ElementoCarrito from "./ElementoCarrito";
 const CarritoCantidad = ({ producto }) => {
-  const { carrito, setCarrito, ComprarProducto, BorrarProducto } =
+  const { carrito, ComprarProducto, BorrarCantidadProducto } =
     useContext(Context);
 
   const sumar = (producto) => {
-    ComprarProducto(producto);
+    try {
+      ComprarProducto(producto);
+    } catch (error) {
+      console.log(error.message);
+    }
   };
   const restar = (producto) => {
-    BorrarProducto(producto);
+    try {
+      BorrarCantidadProducto(producto);
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
   return (
